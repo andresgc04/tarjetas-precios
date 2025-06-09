@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(99, 0, 227);
+  width: 185.1vh;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-section {
+  margin-bottom: 60px;
+}
+
+.sub-title {
+  color: rgb(178, 136, 236);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+
+.cards-container {
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+  gap: 40px;
+}
+
+.small-card {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.large-card {
+  background-color: white;
+  width: 350px;
+  height: 570px;
+  border-radius: 5px;
+}
