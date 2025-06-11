@@ -14,12 +14,22 @@
 
 .text-section {
   margin-bottom: 60px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .sub-title {
   color: rgb(178, 136, 236);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: smaller;
+  font-size: x-large;
+}
+
+.title {
+  color: rgb(253, 229, 230);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
 }
 
 .cards-container {
@@ -33,6 +43,80 @@
   width: 350px;
   height: 500px;
   border-radius: 5px;
+}
+
+.small-card-header {
+  margin-top: 20px;
+  width: 350px;
+  height: 130px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card-emoji {
+  font-size: 4em;
+}
+
+.small-card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(235, 201, 107);
+  font-size: 2em;
+}
+
+.small-card-price-section {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card-price {
+  color: rgb(102, 0, 226);
+  font-weight: bold;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-card-symbol-money {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(148, 122, 199);
+}
+
+.small-card-text-section {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card-description {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(160, 160, 160);
+  font-weight: lighter;
+}
+
+.botton-small-card-section {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.botton-small-card {
+  color: rgb(102, 0, 226);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.botton-small-card:hover {
+  color: rgb(178, 136, 236);
 }
 
 .large-card {
