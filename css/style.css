@@ -125,3 +125,103 @@
   height: 570px;
   border-radius: 5px;
 }
+
+.large-card-header {
+  background-color: rgb(255, 227, 210);
+  width: 262px;
+  height: 10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-card-title {
+  color: rgb(102, 0, 226);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.large-card-body {
+  margin-top: 37px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-card-emoji {
+  font-size: 4em;
+}
+
+.large-card-plan-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(235, 201, 107);
+  font-size: 2em;
+}
+
+.large-card-price-section {
+  margin: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-card-price {
+  color: rgb(102, 0, 226);
+  font-weight: bold;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.large-card-symbol-money {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(148, 122, 199);
+}
+
+.large-card-text-section {
+  margin-top: 6px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-card-description {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(160, 160, 160);
+  font-weight: lighter;
+}
+
+.botton-large-card-section {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.botton-large-card {
+  padding: 25px;
+  width: 250px;
+  background-color: rgb(102, 0, 226);
+  border: none;
+  color: white;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botton-large-card:hover {
+  background-color: rgb(178, 136, 236);
+  color: white;
+}
